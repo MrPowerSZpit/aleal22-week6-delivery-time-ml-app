@@ -1,4 +1,5 @@
 pandas
-altair
 scikit-learn
 streamlit
+altair>=4.0.0
+vega_datasets
