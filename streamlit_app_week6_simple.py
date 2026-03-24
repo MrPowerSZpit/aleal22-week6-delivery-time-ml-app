@@ -10,7 +10,8 @@
 import streamlit as st                   # builds web app
 import pandas as pd                      # creates a datafram for the model input
 import pickle                            # loads the saved machine learning model
-
+import altair as alt
+from vega_datasets import data
 
 st.title("📦 Delivery Time Predictor")                              #Title for app
 
